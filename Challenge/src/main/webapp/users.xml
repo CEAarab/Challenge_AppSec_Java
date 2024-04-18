@@ -1,0 +1,22 @@
+<users>
+    <user>
+        <username>admin</username>
+        <secret>s3cr31adm1np@ssw000rd</secret>
+        <role>administrator</role>
+    </user>
+    <user>
+        <username>jack</username>
+        <secret>Secdo2012</secret>
+        <role>user</role>
+    </user>
+    <user>
+        <username>oner</username>
+        <secret>nonottoday123</secret>
+        <role>user</role>
+    </user>
+    <user>
+        <username>aarab</username>
+        <secret>wasthere2020</secret>
+        <role>user</role>
+    </user>
+</users>

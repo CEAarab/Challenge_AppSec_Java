@@ -1,0 +1,142 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #14171C; /* as per PDF, dark background */
+    color: #FFFFFF; /* white text */
+    font-family: 'Chakra Petch', sans-serif; /* specified font */
+    line-height: 1.5;
+}
+
+/* Container for centering content */
+.content-container {
+    width: 90%;
+    max-width: 800px; /* Maximum width of the content */
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #1E232A; /* dark background for content */
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #4A90E2; /* Blue */
+}
+
+.btn-secondary {
+    background-color: #6C7A89; /* Gray */
+}
+
+.btn-info {
+    background-color: #23B7E5; /* Light Blue */
+}
+
+.btn-danger {
+    background-color: #FF3B30; /* Red */
+}
+
+.btn-success {
+    background-color: #4CD964; /* Green */
+}
+
+.btn-warning {
+    background-color: #FFCC00; /* Yellow */
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Forms and Inputs */
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #252C34; /* input background as per PDF */
+    color: #fff; /* input text color */
+}
+
+/* Error Styles */
+.error {
+    color: #FF3B30; /* Error color - red */
+    margin-top: 10px;
+}
+
+/* Tables */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #4A90E2; /* Blue border for table rows */
+}
+
+/* List Groups */
+.list-group {
+    margin-top: 20px;
+}
+
+.list-group-item {
+    background-color: #252C34; /* Darker background for list items */
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+}
+
+.list-group-item:hover {
+    background-color: #1E232A; /* Even darker on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .btn {
+        display: block; /* Stack buttons vertically on smaller screens */
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .content-container {
+        width: 100%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+}
